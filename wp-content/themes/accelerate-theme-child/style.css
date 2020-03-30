@@ -1,0 +1,121 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.case-study {
+  display: flex;
+}
+
+.case-study-sidebar {
+  max-width: 40%;
+  margin-right: 3em;
+}
+
+.case-study-sidebar h2 {
+  color: #000000;
+  margin-bottom: 0;
+  font-size: 1.6em;
+}
+
+.case-study-sidebar h5 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #a6a6a6;
+  margin: 0.4em 0;
+}
+
+.case-study-sidebar h6 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0.4em 0;
+}
+
+.case-study-sidebar a {
+  color: #45ac9d;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.case-study-images {
+}
+
+.featured-work h4 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-work ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.featured-work h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+div .case-study-images {
+  width: 100%;
+  height: auto;
+}
+
+.case-study-archive ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.case-study-archive li {
+  margin-bottom: 3em;
+}
