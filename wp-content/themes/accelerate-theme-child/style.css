@@ -121,20 +121,19 @@ div .case-study-images {
 }
 
 .social-media-menu {
-list-style:none;
-display: flex;
-flex-direction: row-reverse;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .social-media-menu li {
-margin: 0 0.4em;
+  margin: 0 0.4em;
   width: 45px;
   height: 45px;
-  background: #222;
+  background: #222222;
   border-radius: 50%;
   padding: 12px 10px;
   text-align: center;
-
 }
 
 .social-media-menu a {
