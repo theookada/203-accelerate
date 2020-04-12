@@ -149,6 +149,26 @@ div .case-study-images {
   margin-bottom: 1em;
 }
 
-.nf-form-content {
-  backgorund: #fff;
+.nf-form-content label {
+  font-size: 1.1em;
+}
+
+#nf-field-5-container {
+  width: 40%;
+}
+
+#nf-field-6-container {
+  width: 40%;
+}
+
+#nf-field-5,
+#nf-field-6,
+#nf-field-7 {
+  background: #ffffff;
+}
+
+#nf-field-8 {
+  background: #45ac9d;
+  width: 25%;
+  float: right;
 }
