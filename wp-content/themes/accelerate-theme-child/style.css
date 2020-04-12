@@ -137,5 +137,18 @@ div .case-study-images {
 }
 
 .social-media-menu a {
-color: #ffffff;
+  color: #ffffff;
+}
+
+.contact-us h2 {
+  font-size: 1.75em;
+}
+
+.contact-us p {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.nf-form-content {
+  backgorund: #fff;
 }
