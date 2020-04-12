@@ -140,6 +140,10 @@ div .case-study-images {
   color: #ffffff;
 }
 
+.contact-us {
+  padding: 0 9.5em;
+}
+
 .contact-us h2 {
   font-size: 1.75em;
 }
@@ -154,11 +158,16 @@ div .case-study-images {
 }
 
 #nf-field-5-container {
-  width: 40%;
+  width: 48%;
+  display: inline-block;
+  margin-right: 0.3em;
 }
 
 #nf-field-6-container {
-  width: 40%;
+  width: 48%;
+  display: inline-block;
+  float: right;
+  margin-left: 0.3em;
 }
 
 #nf-field-5,
