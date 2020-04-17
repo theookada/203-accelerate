@@ -157,31 +157,6 @@ div .case-study-images {
   font-size: 1.1em;
 }
 
-#nf-field-5-container {
-  width: 48%;
-  display: inline-block;
-  margin-right: 0.3em;
-}
-
-#nf-field-6-container {
-  width: 48%;
-  display: inline-block;
-  float: right;
-  margin-left: 0.3em;
-}
-
-#nf-field-5,
-#nf-field-6,
-#nf-field-7 {
-  background: #ffffff;
-}
-
-#nf-field-8 {
-  background: #45ac9d;
-  width: 25%;
-  float: right;
-}
-
 #nf-field-1-container {
   width: 48%;
   display: inline-block;

@@ -16,7 +16,7 @@ get_header(); ?>
 
 <div id="primary" class="site-content sidebar">
 	<div class="main-content" role="main">
-    <div class="case-study-archive">  
+    <div class="case-study-archive">
       <ul>
 
 		      <?php while ( have_posts() ) : the_post();
@@ -47,7 +47,7 @@ get_header(); ?>
 				                      echo wp_get_attachment_image( $image_1, $size );
 			                  } ?>
                       </a>
-		                  </div>
+		             </div>
 	           </article>
            </li>
 			<?php endwhile; // end of the loop. ?>
