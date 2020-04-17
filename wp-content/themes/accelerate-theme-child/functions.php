@@ -43,7 +43,7 @@ array(
    'singular_name' => __( 'About Page' )
   ),
   'public' => true,
-  'has_archive' => true,
+  'has_archive' => false,
   'rewrite' => array('slug' => 'about'),
  )
 );
