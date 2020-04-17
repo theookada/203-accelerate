@@ -181,3 +181,69 @@ div .case-study-images {
   width: 25%;
   float: right;
 }
+
+#nf-field-1-container {
+  width: 48%;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+
+#nf-field-2-container {
+  width: 48%;
+  display: inline-block;
+  float: right;
+  margin-left: 0.3em;
+}
+
+#nf-field-1,
+#nf-field-2,
+#nf-field-3 {
+  background: #ffffff;
+}
+
+#nf-field-4 {
+  background: #45ac9d;
+  width: 25%;
+  float: right;
+}
+
+.about-header-content {
+  width: 40%;
+  display: inline-block;
+}
+
+.about-hero {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.about-services-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-services-content h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.about-services-content p {
+  width: 60%;
+  text-align: center;
+}
+
+.about-contact-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  max-width: 960px;
+  border-top: 1px solid #bfbfbf;
+  width: 80%;
+  padding: 0 10em;
+}
