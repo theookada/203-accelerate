@@ -28,25 +28,29 @@
 		<h4>Our Services</h4>
 		<p>We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
 
-		<ul>
-			<?php
-        $args = array( 'post_type' => 'about', 'posts_per_page' => 4 );
-        $loop = new WP_Query( $args );
-        while ( $loop->have_posts() ) : $loop->the_post();
-        $image = get_field('image');
-        $size = "full";
-      ?>
-      <li>
-        <h2><?php the_title(); ?></h2>
-        <p><?php the_content(); ?></p>
-        <div class="about-service-img">
-          <?php if($image) {
-                echo wp_get_attachment_image( $image, $size );
-          } ?>
-        </div>
-      </li>
-      <?php endwhile; // end of the loop. ?>
-		</ul>
+    <div class="about-main-wrapper">
+      <ul>
+  			<?php
+          $args = array( 'post_type' => 'about', 'posts_per_page' => 4 );
+          $loop = new WP_Query( $args );
+          while ( $loop->have_posts() ) : $loop->the_post();
+          $image = get_field('image');
+          $size = "full";
+        ?>
+        <li>
+          <div class="about-main-text">
+            <h2><?php the_title(); ?></h2>
+            <p><?php the_content(); ?></p>
+          </div>
+          <div class="about-main-img">
+            <?php if($image) {
+                  echo wp_get_attachment_image( $image, $size );
+            } ?>
+          </div>
+        </li>
+        <?php endwhile; // end of the loop. ?>
+  		</ul>
+    </div>
 	</section>
 </div>
 
