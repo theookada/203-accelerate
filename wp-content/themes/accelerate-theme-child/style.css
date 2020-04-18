@@ -22,6 +22,7 @@ Text Domain:  accelerate-theme-child
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* === BLOG PAGE === */
 .blog-post {
 	width: 50%;
 	float: left;
@@ -46,6 +47,7 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/* === SINGLE CASE STUDY === */
 .case-study {
   display: flex;
 }
@@ -83,9 +85,7 @@ Text Domain:  accelerate-theme-child
   font-size: 1em;
 }
 
-.case-study-images {
-}
-
+/* === HOMEPAGE FEATURED CASE STUDIES === */
 .featured-work h4 {
   text-transform: uppercase;
   display: flex;
@@ -105,6 +105,7 @@ Text Domain:  accelerate-theme-child
   margin-top: 0.5em;
 }
 
+/* === CASE STUDY ARCHIVE === */
 div .case-study-images {
   width: 100%;
   height: auto;
@@ -120,6 +121,7 @@ div .case-study-images {
   margin-bottom: 3em;
 }
 
+/* === SOCIAL MEDIA MENU === */
 .social-media-menu {
   list-style: none;
   display: flex;
@@ -140,6 +142,7 @@ div .case-study-images {
   color: #ffffff;
 }
 
+/* === CONTACT === */
 .contact-us {
   padding: 0 9.5em;
 }
@@ -182,6 +185,7 @@ div .case-study-images {
   float: right;
 }
 
+/* === ABOUT === */
 .about-header-content {
   width: 40%;
   display: inline-block;
@@ -209,30 +213,15 @@ div .case-study-images {
   margin-bottom: 4em;
 }
 
-.about-contact-wrapper {
-  display: flex;
-  justify-content: space-around;
-}
-
-.about-contact-content {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  max-width: 960px;
-  border-top: 1px solid #bfbfbf;
-  width: 80%;
-  padding: 0 10em;
-}
-
 .about-main-wrapper {
   width: 100%;
   max-width: 960px;
+  display:flex;
+  justify-content: space-between;
 }
 
 .about-main-wrapper ul {
-  list-style: none;
   margin: 0;
-  display: grid;
 }
 
 .about-main-wrapper ul li {
@@ -247,6 +236,7 @@ div .case-study-images {
 
 .about-main-text h2 {
   margin: 0;
+  font-size: 1.6em;
 }
 
 .about-main-text p {
@@ -255,7 +245,26 @@ div .case-study-images {
   width: 90%;
 }
 
-.about-main-img {
-  width: 30%;
-  height: auto;
+.about-main-wrapper ul li:nth-child(odd) {
+  flex-direction: row-reverse;
+  display:flex;
+}
+
+.about-main-wrapper ul li:nth-child(odd) .about-main-img {
+  padding-right: 5em;
+}
+
+.about-contact-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  max-width: 960px;
+  border-top: 1px solid #bfbfbf;
+  width: 80%;
+  padding: 0 10em;
 }
