@@ -242,7 +242,12 @@ div .case-study-images {
 .about-main-text p {
   margin: 0;
   text-align: left;
-  width: 90%;
+  width: 100%;
+}
+
+.about-main-img {
+  width: 40%;
+  text-align: right;
 }
 
 .about-main-wrapper ul li:nth-child(odd) {
@@ -251,7 +256,8 @@ div .case-study-images {
 }
 
 .about-main-wrapper ul li:nth-child(odd) .about-main-img {
-  padding-right: 5em;
+  width: 40%;
+  text-align: left;
 }
 
 .about-contact-wrapper {
