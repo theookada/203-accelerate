@@ -29,27 +29,23 @@
 		<p>We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
 
 		<ul>
-			<?php while (have_posts()) : the_post();
-			 $image = get_field('image');
-			 $size = "full";
-			?>
-			<li>
-				<article class="about-service-single">
-					<aside class="">
-						<h2><?php the_title(); ?></h2>
-						<p><?php the_content(); ?></p>
-
-					</aside>
-					<div class="case-study-images">
-							 <a href="<?php the_permalink(); ?>">
-								 <?php if($image) {
-											 echo wp_get_attachment_image( $image, $size );
-								 } ?>
-							 </a>
-					</div>
-				</article>
-			</li>
-			<?php endwhile; // end of the loop. ?>
+			<?php
+        $args = array( 'post_type' => 'about', 'posts_per_page' => 4 );
+        $loop = new WP_Query( $args );
+        while ( $loop->have_posts() ) : $loop->the_post();
+        $image = get_field('image');
+        $size = "full";
+      ?>
+      <li>
+        <h2><?php the_title(); ?></h2>
+        <p><?php the_content(); ?></p>
+        <div class="about-service-img">
+          <?php if($image) {
+                echo wp_get_attachment_image( $image, $size );
+          } ?>
+        </div>
+      </li>
+      <?php endwhile; // end of the loop. ?>
 		</ul>
 	</section>
 </div>

@@ -35,18 +35,18 @@ add_action( 'init', 'create_custom_post_types' );
 
 /* Custom Post Type Start */
 function create_posttype() {
-register_post_type( 'about_page',
+	register_post_type( 'about',
 // CPT Options
-array(
-  'labels' => array(
-   'name' => __( 'About Page' ),
-   'singular_name' => __( 'About Page' )
-  ),
-  'public' => true,
-  'has_archive' => false,
-  'rewrite' => array('slug' => 'about'),
- )
-);
+		array(
+  		'labels' => array(
+   			'name' => __( 'About' ),
+   			'singular_name' => __( 'About' )
+  	),
+  	'public' => true,
+  	'has_archive' => true,
+  	'rewrite' => array('slug' => 'about'),
+ 		)
+	);
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
