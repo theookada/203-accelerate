@@ -300,14 +300,18 @@ div .case-study-images {
 }
 
 .p404-txt h1 {
-   font-size: 3em;
-   margin: 0;
-   color: #45ac9d;
+  font-family: 'Purple Purse', cursive;
+  font-size: 3em;
+  margin: 0;
+  color: #45ac9d;
+  font-weight: normal;
 }
 
 .p404-txt h2 {
   font-size: 1.5em;
   margin: 0;
+  font-family: 'Purple Purse', cursive;
+  font-weight: normal;
 }
 
 .p404-txt a {
