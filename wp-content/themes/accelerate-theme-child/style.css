@@ -274,3 +274,51 @@ div .case-study-images {
   width: 80%;
   padding: 0 10em;
 }
+
+.p404-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.p404-content {
+  display: flex;
+  justify-content: center;
+}
+
+.p404-img {
+  opacity: 0.9;
+  text-align: center;
+  width: 85%;
+  height: auto;
+}
+
+.p404-txt {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+.p404-txt h1 {
+   font-size: 3em;
+   margin: 0;
+   color: #45ac9d;
+}
+
+.p404-txt h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.p404-boop {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 88%;
+  left: 10%;
+}
+
+.p404-txt a,
+.p404-boop:hover {
+  color: #45ac9d;
+}
