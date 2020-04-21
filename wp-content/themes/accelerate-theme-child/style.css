@@ -310,15 +310,6 @@ div .case-study-images {
   margin: 0;
 }
 
-.p404-boop {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 88%;
-  left: 10%;
-}
-
-.p404-txt a,
-.p404-boop:hover {
+.p404-txt a {
   color: #45ac9d;
 }
