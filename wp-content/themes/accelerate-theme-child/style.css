@@ -317,3 +317,21 @@ div .case-study-images {
 .p404-txt a {
   color: #45ac9d;
 }
+
+.PI_SimpleTwitterTweets {
+  display:flex;
+  flex-flow: column;
+}
+
+.PI_SimpleTwitterTweets .widget-title {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+
+.PI_SimpleTwitterTweets ul {
+  list-style: none;
+  margin: 0;
+  max-width: 460px;
+}

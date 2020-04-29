@@ -52,3 +52,20 @@ function create_posttype() {
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
 /* Custom Post Type End */
+
+/* Twitter Widget Start */
+function accelerate_theme_child_widget_init() {
+
+	register_sidebar( array(
+	    'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
+	    'id' => 'sidebar-2',
+	    'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+	    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	    'after_widget' => '</aside>',
+	    'before_title' => '<h3 class="widget-title">',
+	    'after_title' => '</h3>',
+	) );
+
+}
+add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+/* Twitter Widget End */
